@@ -1,0 +1,28 @@
+{
+  "Information": [
+    {
+      "Id": 1,
+      "Name": "John",
+      "Surname": "Doe",
+      "Age": 21
+    },
+    {
+      "Id": 2,
+      "Name": "William",
+      "Surname": "Henderson",
+      "Age": 34
+    },
+    {
+      "Id": 3,
+      "Name": "Henry",
+      "Surname": "Scaletta",
+      "Age": 18
+    },
+    {
+      "Id": 4,
+      "Name": "Maria",
+      "Surname": "herrera",
+      "Age": 30
+    }
+  ]
+}
