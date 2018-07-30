@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                         int age = jsonObject.getInt("Age");
                         initItems.InitToHashMap(id, name, surname, age);
                     } catch (JSONException e) {
+                        //Oh Gosh!..
                         e.printStackTrace();
                     }
                 }
@@ -56,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
             contact.put("Name", name);
             contact.put("Surname", surname);
             contact.put("Age", Integer.toString(age));
+            // add contact to contact list
             contentList.add(contact);
         }
     };
