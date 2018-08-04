@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -34,6 +33,15 @@
         android:text="World"
         android:textSize="18sp"
         tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/IdNum"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:text="hello" />
 
     <TextView
         android:id="@+id/IdAge"

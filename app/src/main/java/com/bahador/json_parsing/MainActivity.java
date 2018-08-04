@@ -4,7 +4,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
@@ -41,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
                 ListView listView = findViewById(R.id.listViewJSON);
-                ListAdapter adapter = new SimpleAdapter(MainActivity.this, contentList,
+                SimpleAdapter adapter = new SimpleAdapter(MainActivity.this, contentList,
                         R.layout.list_item, new String[]{"Id", "Name", "Surname", "Age"},
                         new int[]{R.id.IdNum, R.id.IdName, R.id.IdSurname, R.id.IdAge});
                 listView.setAdapter(adapter);
